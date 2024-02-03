@@ -3,135 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mair Aushev - Software Engineer</title>
+    <title>Mair's CV</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 20px;
         }
         .container {
             max-width: 800px;
             margin: auto;
         }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section-title {
-            font-size: 24px;
+        h1, h2 {
             color: #333;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-            border-bottom: 2px solid #333;
-            padding-bottom: 3px;
         }
-        .sub-section {
-            margin-bottom: 5px;
+        h2 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
         }
-        .sub-section-title {
-            font-weight: bold;
+        .job-title {
+            color: #555;
+            font-style: italic;
         }
-        .sub-section-content {
-            margin-left: 10px;
+        .job-duration {
+            color: #999;
+            font-size: 0.9em;
         }
-        a {
-            color: #0066cc;
+        ul {
+            margin: 10px 0;
+        }
+        li {
+            margin: 5px 0;
         }
     </style>
 </head>
 <body>
 <div class="container">
-    <h1>Mair Aushev</h1>
-    <p>Email: aushev92@gmail.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/aushev-dev" target="_blank">aushev-dev</a></p>
-    <hr>
+    <header>
+        <h1>Mair - Ruby on Rails Developer</h1>
+    </header>
 
-    <div class="section">
-        <div class="section-title">Summary</div>
-        <p>
-            Hi, I'm a Software Engineer with experience in developing web applications and integrating third-party services
-            through private APIs. I am proficient in building Docker images, using Dry-rb for creating composable, reusable,
-            and maintainable business logic, and configuring webhooks and websockets for real-time communication and data
-            exchange. I have worked for companies like Trucker, TIONIX, and Flussonic, where I have utilized technologies
-            such as Ruby on Rails, PostgreSQL, RabbitMQ, Sidekiq, Redis, Sentry, and ClickHouse to support platform
-            performance and scalability. I also have experience in deploying pg, sidekiq, and redis on both Heroku and VPS
-            platforms.
-        </p>
-    </div>
+    <section>
+        <h2> About </h2>
+        <p> An adept Software Engineer with a specialized focus on Ruby on Rails, possessing over 5 years of well-rounded experience in web application development and API integrations. My expertise lies in crafting modular and resilient business logic with Dry-rb, enabling real-time application interaction through webhooks and websockets, and integrating complex third-party services. With notable tenures at Trucker, TIONIX, and Flussonic, I've successfully utilized a tech stack that spans Ruby on Rails, PostgreSQL, RabbitMQ, Sidekiq, Redis, Sentry, and ClickHouse, enhancing platform reliability and scalability. I am proficient in deploying and managing data-centric services on Heroku and VPS platforms, with a practical understanding of containerization technologies including Docker.</p>
+    </section>
 
-    <div class="section experience">
-        <h2 class="title">Experience</h2>
+    <section>
+        <h2>Professional Experience</h2>
 
-        <div class="job">
-            <h3 class="subtitle">Software Engineer at Trucker</h3>
-            <p class="timeframe">Apr 2022 - Present (1 year 5 months)</p>
-            <ul class="details-list">
-                <li>Integrated third-party services by studying and using public APIs for dynamic service improvements.</li>
-                <li>Built Docker images for efficient deployment and management of web applications.</li>
-                <li>Utilized Dry-rb to create composable, reusable, and maintainable business logic within the development process.</li>
-                <li>Configured webhooks and websockets to establish real-time communication and data exchange between applications.</li>
-                <li>Employed Burp Suite to intercept and analyze network traffic, facilitating the understanding of private APIs.</li>
-            </ul>
-        </div>
+        <h3>Trucker — Software Engineer</h3>
+        <p class=job-duration id="jobDurationTrucker">Apr 2022 - Present</p>
+        <ul>
+            <li>Applied architecture and development best practices for project enhancements.</li>
+            <li>Added user-centric features to applications, boosting functionality.</li>
+            <li>Optimized SQL queries for improved application performance.</li>
+            <li>Maintained high standards with thorough testing and clear documentation.</li>
+        </ul>
 
-        <div class="job">
-            <h3 class="subtitle">Software Engineer at TIONIX</h3>
-            <p class="timeframe">Jul 2021 - Apr 2022 (10 months)</p>
-            <ul class="details-list">
-                <li>Played a key role in the development and maintenance of a large-scale cloud platform, contributing to the cloud landscape in Russia.</li>
-                <li>Excelled in the use of messaging and job queuing services such as RabbitMQ and Sidekiq to manage asynchronous tasks efficiently.</li>
-                <li>Leveraged databases like Redis, PostgreSQL, and ClickHouse for managing data, improving platform performance, and ensuring scalability.</li>
-                <li>Mastered containerization with Docker to enhance the development and production environments, streamlining deployment processes.</li>
-            </ul>
-        </div>
+        <h3>TIONIX — Software Engineer</h3>
+        <p class="job-duration">Jul 2021 - Apr 2022 (10 months)</p>
+        <ul>
+            <li>Contributed to building a large-scale cloud platform enhancing cloud computing.</li>
+            <li>Improved task management using RabbitMQ and Sidekiq for efficient processing.</li>
+            <li>Enhanced data handling and platform scalability with Redis, PostgreSQL, and ClickHouse.</li>
+            <li>Acquired skills in Docker for application development and deployment.</li>
+        </ul>
 
-        <div class="job">
-            <h3 class="subtitle">Ruby on Rails Developer at Flussonic</h3>
-            <p class="timeframe">Dec 2020 - Jul 2021 (8 months)</p>
-            <ul class="details-list">
-                <li>Designed and implemented full-stack web solutions for internal company projects including a help desk ticketing system, a billing system, and a corporate portal.</li>
-                <li>Greatly improved the codebase by increasing the level of test coverage, ensuring functionality efficiency and reducing error rates.</li>
-                <li>Integrated numerous APIs, both internal and third-party, to enhance project performance and extend system capabilities.</li>
-            </ul>
-        </div>
+        <h3>Flussonic — Ruby on Rails Developer</h3>
+        <p class="job-duration">Dec 2020 - Jul 2021 (8 months)</p>
+        <ul>
+            <li>Developed essential web applications, improving operational efficiency.</li>
+            <li>Prioritized clean, testable code to reduce bugs and enhance software reliability.</li>
+            <li>Integrated multiple APIs to extend app functionality and performance.</li>
+        </ul>
 
-        <div class="job">
-            <h3 class="subtitle">Freelance Ruby On Rails Developer</h3>
-            <p class="timeframe">Apr 2019 - Nov 2020 (1 year 8 months)</p>
-            <ul class="details-list">
-                <li>Involved in the creation of diverse web applications and the development of chatbots and website parsers using Ruby on Rails.</li>
-                <li>Specialized in deployment strategies for PostgreSQL, Sidekiq, and Redis on both Heroku and VPS platforms.</li>
-            </ul>
-        </div>
+        <h3>Freelance Ruby On Rails Developer</h3>
+        <p class="job-duration">Apr 2019 - Nov 2020 (1 year 8 months)</p>
+        <ul>
+            <li>Led a variety of web application projects, from chatbots to data parsers.</li>
+            <li>Deployed PostgreSQL, Sidekiq, and Redis, creating reliable systems across platforms.</li>
+        </ul>
 
-        <div class="job">
-            <h3 class="subtitle">Frontend Developer at JSC Malino</h3>
-            <p class="timeframe">Apr 2018 - Dec 2019 (1 year 9 months)</p>
-            <ul class="details-list">
-                <li>Contributed to the development and refinement of multiple company websites using HTML, CSS, and JavaScript.</li>
-                <li>Managed and maintained four company websites, ensuring their operational excellence and user-friendly experience.</li>
-            </ul>
-        </div>
+        <h3>JSC Malino — Frontend Developer</h3>
+        <p class="job-duration">Apr 2018 - Dec 2019 (1 year 9 months)</p>
+        <ul>
+            <li>Improved website design for better user engagement and performance.</li>
+            <li>Ensured website operational excellence and user friendly experience.</li>
+        </ul>
 
-    </div>
+    </section>
 
-    <div class="section">
-        <div class="section-title">Education</div>
-        <!-- Education subsection -->
-        <div class="sub-section">
-            <div class="sub-section-title">Finance University under the Government of the Russian Federation</div>
-            <div class="sub-section-content">Bachelor's degree, Taxation, 2011 - 2015</div>
-        </div>
-        <div class="sub-section">
-            <div class="sub-section-title">Moscow Finance and Law Academy (MFUA)</div>
-            <div class="sub-section-content">Bachelor's degree, Law, Sep 2012 - Jul 2016</div>
-        </div>
-    </div>
-
-    <div class="section">
-        <div class="section-title">Skills</div>
-        <p>HTML, CSS, Docker, DevOps, Redis, RabbitMQ, Burp Suite, AWS Lambda, Ruby, Ruby on Rails...</p>
-    </div>
-
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li>Finance University under the Government of the Russian Federation, Bachelor's Degree in Taxation, 2011 -
+                2015
+            </li>
+            <li>Moscow Finance and Law Academy (MFUA), Bachelor's Degree in Law, 2012 - 2016</li>
+        </ul>
+    </section>
 </div>
+<script>
+    function calculateDuration(startDate, endDate) {
+        const start = new Date(startDate);
+        const end = endDate ? new Date(endDate) : new Date();
+        const months = (end.getFullYear() - start.getFullYear()) * 12 + end.getMonth() - start.getMonth() - (end.getDate() < start.getDate() ? 1 : 0);
+        const years = Math.floor(months / 12);
+        const remainingMonths = months % 12;
+        return `${years > 0 ? `${years} year(s) ` : ''}${remainingMonths} month(s)`;
+    }
+
+    function updateJobDuration(elementId, startDate) {
+        const durationText = `Apr 2022 - Present (${calculateDuration(startDate)})`;
+        document.getElementById(elementId).innerText = durationText;
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        updateJobDuration("jobDurationTrucker", "2022-04-01");
+    });
+</script>
 </body>
 </html>
